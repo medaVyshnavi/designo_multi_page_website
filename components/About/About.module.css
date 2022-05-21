@@ -1,0 +1,235 @@
+.wrapper {
+  text-align: center;
+  margin-bottom: 20rem;
+}
+
+.leafTop{
+  background-image: url('../../public/assets/shared/desktop/bg-pattern-leaf.svg');
+  position: absolute;
+  /* width: 1004px;
+  height: 594px; */
+}
+
+.information {
+  padding: 4.75rem 1.4rem;
+  background-image: url("../../public/assets/about/mobile/bg-pattern-hero-about-mobile.svg");
+  margin-top: -0.4rem;
+  background-color: #fdf3f0;
+  line-height: 1.67rem;
+  background-position: 73% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.information h2 {
+  color: #e7816b;
+}
+
+.information p {
+  color: #333136;
+}
+
+.wrapper h2 {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 1.125rem;
+}
+
+.about_us {
+  background-color: #e7816b;
+  padding: 4.75rem 1.125rem;
+  margin-top: -0.4rem;
+  color: #fff;
+}
+
+.wrapper p {
+  font-size: 15px;
+}
+
+.bg_circle {
+  background-image: url("../../public/assets/shared/desktop/bg-pattern-small-circle.svg");
+  position: absolute;
+  width: 202px;
+  height: 202px;
+  left: 6.5rem;
+  top: 22.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutImage {
+  background-image: url("../../public/assets/about/mobile/image-about-hero.jpg");
+  height: 320px;
+  margin-top: 0.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.talentImage {
+  background-image: url("../../public/assets/about/mobile/image-world-class-talent.jpg");
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.realDealImage {
+  background-image: url("../../public/assets/about/mobile/image-real-deal.jpg");
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    margin: 1rem 2.375rem 0;
+  }
+
+  .aboutImage {
+    background-image: url("../../public/assets/about/tablet/image-about-hero.jpg");
+    height: 320px;
+    margin-top: 0.5rem;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    background-size: cover;
+  }
+
+  .about_us {
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+  }
+
+  .about_us h2 {
+    font-size: 48px;
+  }
+
+  .about_us p {
+    font-size: 16px;
+    padding: 0 2rem;
+  }
+
+  .talent {
+    margin-top: 7.375rem;
+  }
+
+  .talentImage {
+    background-image: url("../../public/assets/about/tablet/image-world-class-talent.jpg");
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    background-size: cover;
+  }
+
+  .information {
+    border-bottom-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+  }
+
+  .information h2 {
+    font-size: 40px;
+  }
+
+  .information p {
+    font-size: 16px;
+    margin-top: 1rem;
+    padding: 0 2.3rem;
+  }
+
+  .realDealImage {
+    background-image: url("../../public/assets/about/tablet/image-real-deal.jpg");
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1020px) {
+  .wrapper {
+    margin: 0 7.5rem;
+    text-align: left;
+  }
+  .about {
+    display: flex;
+  }
+
+  .aboutImage {
+    background-image: url("../../public/assets/about/desktop/image-about-hero.jpg");
+    width: 476px;
+    height: 480px;
+    order: 1;
+    border-bottom-right-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-top-left-radius: 0;
+    background-size: cover;
+  }
+
+  .about_us {
+    width: 635px;
+    height: 480px;
+    margin-top: 0.5rem;
+    border-bottom-left-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    border-bottom-right-radius: 0;
+  }
+
+  .about_us h2 {
+    margin-top: 4rem;
+    margin-left: 3.652rem;
+  }
+
+  .about_us p {
+    margin-left: 1.652rem;
+    padding: 0 0 0 2rem;
+  }
+
+  /* .bg_circle{
+    background-image: url("../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+  } */
+
+  .talent {
+    display: flex;
+  }
+
+  .talentImage {
+    background-image: url("../../public/assets/about/desktop/image-world-class-talent.jpg");
+    width: 476px;
+    height: 640px;
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-top-right-radius: 0;
+    background-size: cover;
+  }
+
+  .information {
+    width: 635px;
+    height: 640px;
+    margin-top: 0.02rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.7rem;
+  }
+
+  .information h2 {
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+
+  .realdeal{
+    display: flex;
+  }
+
+  .realDealImage{
+    background-image: url("../../public/assets/about/desktop/image-real-deal.jpg");
+    order: 1;
+    width: 476px;
+    height: 640px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.7rem;
+    background-size: cover;
+  }
+
+  .realStyle{
+    border-bottom-left-radius: 0.7rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0.7rem;
+    background-size: cover;
+  }
+}

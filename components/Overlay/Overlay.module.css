@@ -1,0 +1,21 @@
+.overlay{
+    height: 234px;
+    position: fixed;
+    background-color: #333136;
+    width: 100%;
+    top: 6.5rem;
+    left: 0rem;
+    bottom: 0;
+    right: 0;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #fff;
+    height: 70%;
+    margin: 2rem;
+    font-size: 24px;
+}

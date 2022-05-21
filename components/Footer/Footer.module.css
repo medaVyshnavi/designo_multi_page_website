@@ -1,0 +1,277 @@
+.footer {
+  position: relative;
+  margin-top: 15rem;
+}
+
+.layout {
+  background-color: #e7816b;
+  color: #ffffff;
+  width: 324px;
+  height: 390px;
+  position: absolute;
+  top: -54rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 0.9rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/assets/shared/desktop/bg-pattern-call-to-action.svg");
+}
+
+.top {
+  color: #ffffff;
+}
+
+.bottom {
+  color: #565558;
+  font-weight: 900;
+}
+
+.layout h2 {
+  padding: 4rem 3rem 0;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.layout p {
+  padding: 1.5rem;
+  font-size: 14px;
+}
+
+.layout button {
+  background-color: #fff;
+  color: #333136;
+  border: none;
+  padding: 1.375rem;
+  border-radius: 0.7rem;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.layout button:hover {
+  background-color: #ffad9b;
+  color: #fff;
+}
+
+.base {
+  background-color: #1d1c1e;
+  text-align: center;
+  font-weight: 900;
+  height: 856px;
+  padding-top: 13.5rem;
+  color: #ffffff;
+  width: 100%;
+}
+
+.contact_base {
+  background-color: #1d1c1e;
+  text-align: center;
+  font-weight: 900;
+  height: 667px;
+  padding-top: 2.5rem;
+  color: #ffffff;
+  width: 100%;
+}
+
+.logoImage {
+  height: 24px;
+  width: 24px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(#e7816b, #ffad98, #1d1e1c);
+  border-radius: 50%;
+}
+
+.title {
+  padding-left: 20px;
+  letter-spacing: 8px;
+  font-size: 25px;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+.footerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}
+
+.links a {
+  margin-top: 2rem;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  margin: 3rem 0;
+}
+
+.address h4,
+.contact h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact {
+  margin: 3rem;
+}
+
+.icons {
+  margin: 0 0.25rem;
+  display: inline;
+  cursor: pointer;
+}
+
+.breakTablet {
+  display: none;
+}
+
+.break {
+  background-color: #1d1c1e;
+  width: 80%;
+  margin: auto;
+}
+
+.contact_icons{
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .layout {
+    width: 690px;
+    height: 350px;
+    top: -37rem;
+  }
+
+  .base {
+    height: 423px;
+    /* width: 768px; */
+    padding: 8.5rem 2.7rem 0;
+  }
+
+  .contact_base {
+    padding: 2.5rem 2.7rem 0;
+    height: 329px;
+    /* width: 768px; */
+  }
+
+  .layout h2 {
+    padding: 3rem 11rem 0;
+    font-size: 40px;
+    line-height: 2.5rem;
+  }
+
+  .layout p {
+    padding: 1.5rem 6rem;
+    font-size: 17px;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .links {
+    flex-direction: row;
+  }
+
+  .break {
+    display: none;
+  }
+
+  .breakTablet {
+    background-color: #1d1c1e;
+    width: 100%;
+    margin: auto;
+    /* display: block; */
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .contact {
+    margin: 0;
+  }
+
+  .footer {
+    margin-top: 18rem;
+  }
+
+  .links a {
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+
+  .bottom h4 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .layout {
+    width: 1111px;
+    height: 293px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: -35rem;
+  }
+
+  .layout h2 {
+    padding: 0 7rem 0 0;
+  }
+
+  .layout p {
+    padding: 1.5rem 0;
+    font-size: 16px;
+  }
+
+  .layout button {
+    margin: 0;
+  }
+
+  .base,
+  .contact_base {
+    width: 100%;
+    padding: 6.5rem 7.7rem 0;
+  }
+
+  .contact_base {
+    padding: 0.5rem 7.7rem 0;
+  }
+
+  .contact {
+    padding-right: 11rem;
+  }
+
+  .data {
+    width: 459px;
+    text-align: left;
+  }
+
+  .footer {
+    margin-top: 19rem;
+  }
+}

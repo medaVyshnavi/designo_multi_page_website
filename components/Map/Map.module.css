@@ -1,0 +1,22 @@
+.size{
+    width: 374px;
+    height: 320px;
+}
+
+@media(min-width:768px){
+    .size{
+        width: 680px;
+        height: 326px;
+        margin: 0 auto;
+        border-radius: 0.7rem;
+    }
+}
+
+@media(min-width:1020px){
+    .size{
+        width: 380px;
+        height: 326px;
+        margin: 0 auto;
+        border-radius: 0.7rem;
+    }
+}

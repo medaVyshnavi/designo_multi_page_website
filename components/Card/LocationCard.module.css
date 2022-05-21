@@ -1,0 +1,115 @@
+.desktop_wrapper {
+  display: none;
+}
+.miniScreen{
+  margin: 0.6rem 0 21rem;
+}
+
+.location_sub_card {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.location_sub_card_img {
+  width: 375px;
+  height: 320px;
+  border-radius: 0.7rem;
+}
+
+.location_sub_card_info {
+  background-color: #fdf3f0;
+  padding: 4rem 3rem 5rem;
+  margin-top: -0.5rem;
+  background-image: url("../../public/assets/shared/desktop/bg-pattern-three-circles.svg");
+}
+
+.location_sub_card_info h2 {
+  color: #e7816b;
+  font-size: 32px;
+  padding: 1rem 0 2rem;
+}
+
+.address {
+  padding: 0 3rem 2rem;
+}
+
+@media (min-width: 768px) {
+  .location_sub_card_img {
+    width: 665px;
+    height: 326px;
+  }
+
+  .location_sub_card_info {
+    margin: 2rem 3rem 5rem;
+    border-radius: 0.7rem;
+    flex: 1;
+    background-image: url("../../public/assets/shared/desktop/bg-pattern-two-circles.svg");
+    text-align: left;
+  }
+
+  .location_sub_card_info h2 {
+    padding: 1rem 2.5rem 2rem;
+  }
+
+  .display_style {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .address {
+    padding: 0;
+  }
+
+  .location {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .miniScreen {
+    display: none;
+    margin: 1rem 10.5rem;
+  }
+
+  .desktop_wrapper {
+    display: block;
+    margin: 1rem 7.5rem;
+  }
+
+  .divOne,
+  .divThree {
+    display: grid;
+    grid-template-columns: 2.5fr 1.3fr;
+    margin-bottom: 2rem;
+  }
+
+  .divTwo {
+    display: grid;
+    grid-template-columns: 1.3fr 2.5fr;
+    margin-bottom: 2rem;
+  }
+
+  .data {
+    background-color: #fdf3f0;
+    padding: 6rem 4rem 4rem;
+    border-radius: 0.7rem;
+    margin-right: 2rem;
+    background-image: url("../../public/assets/shared/desktop/bg-pattern-two-circles.svg");
+  }
+
+  .divThree img, .divOne img, .divTwo img {
+    border-radius: 0.7rem;
+  }
+
+  .data h2 {
+    color: #e7816b;
+    margin: 0 4.7rem 1.5rem;
+  }
+
+  .desktop_info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

@@ -1,0 +1,72 @@
+.navBar {
+  height: 96px;
+}
+
+.header {
+  padding: 40px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImage {
+  height: 24px;
+  width: 24px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(#e7816b, #ffad98, #fff);
+  border-radius: 50%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 27px;
+}
+
+.title {
+  padding-left: 20px;
+  letter-spacing: 8px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  display: none;
+}
+
+.navLinks a {
+  font-size: 14px;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .menuIcon {
+    display: none !important;
+  }
+
+  .navLinks {
+    display: flex;
+    width: 356px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    padding-left: 25px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .header {
+    margin: 0 4.675rem;
+  }
+}

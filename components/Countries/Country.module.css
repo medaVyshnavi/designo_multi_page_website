@@ -1,0 +1,65 @@
+.country_wrapper {
+  margin: 4.5rem 0 7rem;
+}
+
+.country_wrapper button {
+  background-color: #e7816b;
+  border: none;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  padding: 1.24rem 1.45rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.country_wrapper button:hover {
+  background-color: #ffad9b;
+}
+
+.name {
+  font-size: 20px;
+  margin: 2rem 0;
+  letter-spacing: 0.3rem;
+  padding: 0;
+}
+
+.card {
+  padding-top: 2.6rem;
+  text-align: center;
+  position: relative;
+}
+
+.cardImage {
+  background-image: url("../../public/assets/home/desktop/bg-pattern-hero-home.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 202px;
+  height: 202px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -7rem;
+  bottom: 0;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1020px) {
+  .country_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .country_wrapper button {
+    padding: 1.24rem 1.3rem;
+    letter-spacing: 0;
+  }
+}

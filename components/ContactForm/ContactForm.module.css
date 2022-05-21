@@ -1,0 +1,150 @@
+.contact_wrapper {
+  background-color: #e7816b;
+  padding: 4rem 1.5rem 2rem;
+  color: #fff;
+  text-align: center;
+  background-image: url("../../public/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0.5rem;
+}
+
+.contact_wrapper h1 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+}
+
+.contact_wrapper p {
+  font-size: 15px;
+  line-height: 1.5rem;
+  font-weight: lighter;
+}
+
+.form {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.form input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  outline: none;
+  margin: 1rem 1rem 1rem 0;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  padding: 0 0 1rem 0;
+  color: #fff;
+}
+
+.form input:hover{
+  border-bottom: 3px solid rgba(255, 255, 255, 0.9);
+}
+
+.form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 1rem;
+}
+
+.form input:focus {
+  color: #fff;
+}
+
+.form input:active {
+  color: #fff;
+}
+
+.form button {
+  display: block;
+  color: rgba(0, 0, 0, 0.7);
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.1rem;
+  margin: 2rem 6rem 0;
+  cursor: pointer;
+}
+
+.form button:hover{
+  background-color: #FFAD9B;
+  color: #fff;
+}
+
+.form textarea {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  outline: none;
+  margin: 1rem 1rem 1rem 0;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  padding: 0 0 4rem 0;
+  color: #fff;
+}
+
+.form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 1rem;
+}
+.error {
+  color: #2f4858;
+}
+
+.footer_wrapper{
+  padding-top:3.5rem;
+}
+
+@media (min-width: 768px) {
+  .contact_wrapper {
+    padding: 4rem 4.5rem 6rem;
+    margin: 0 3.5rem;
+    border-radius: 0.7rem;
+  }
+  .infoDiv {
+    text-align: left;
+  }
+
+  .infoDiv p {
+    font-size: 16px;
+  }
+
+  .form button {
+    float: right;
+    margin: 2rem 0 0;
+  }
+}
+
+@media (min-width: 1020px) {
+  .contact_wrapper {
+    display: flex;
+    background-image: url("../../public/assets/contact/desktop/bg-pattern-hero-desktop.svg");
+    margin: 0 8rem;
+    padding: 1rem 2rem 0rem;
+    align-items: center;
+    background-position: left bottom;
+    background-size: auto;
+    background-size: cover;
+  }
+
+  .form {
+    width: 140%;
+  }
+
+  .form button {
+    margin: 0;
+  }
+
+  .infoDiv {
+    margin: 0px 0 0 3.9rem;
+    padding-right: 4rem;
+  }
+
+  .country_style{
+    margin: 0 10rem 0 12rem;
+  }
+}

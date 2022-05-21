@@ -1,0 +1,155 @@
+.wrapper {
+  margin: 0 1.25rem;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.layout {
+  margin-bottom: 4.6rem;
+  position: relative;
+}
+
+.header {
+  text-transform: uppercase;
+  margin: 2.25rem 0;
+  letter-spacing: 0.2rem;
+  color: #333136;
+  font-weight: 100;
+}
+
+.info {
+  line-height: 1.7rem;
+  font-weight: initial;
+}
+
+.circle {
+  background-image: url("../../public/assets/home/desktop/bg-pattern-hero-home.svg");
+  position: relative;
+  height: 202px;
+  width: 202px;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.passionate {
+  background-image: url("../../public/assets/home/desktop/illustration-passionate.svg");
+  position: absolute;
+  top: -14rem;
+  left: 0;
+  bottom: 0;
+  height: 202px;
+  width: 202px;
+  margin: auto;
+  background-size: cover;
+  right: 0;
+}
+
+.resourceful {
+  background-image: url("../../public/assets/home/desktop/illustration-resourceful.svg");
+  position: absolute;
+  top: -14rem;
+  left: 0;
+  bottom: 0;
+  height: 202px;
+  width: 202px;
+  margin: auto;
+  background-size: cover;
+  right: 0;
+}
+
+.friendly {
+  background-image: url("../../public/assets/home/desktop/illustration-friendly.svg");
+  position: absolute;
+  top: -14rem;
+  left: 0;
+  bottom: 0;
+  height: 202px;
+  width: 202px;
+  margin: auto;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .layout {
+    display: flex;
+    text-align: left;
+  }
+
+  .wrapper{
+    margin: 0 3.25rem;
+  }
+  .header {
+    margin: 1.6rem 0;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+
+  .passionate {
+    top: 0;
+    margin: 0;
+  }
+
+  .friendly{
+    top: 0;
+    margin: 0;
+  }
+
+  .resourceful{
+    top: 0;
+    margin: 0;
+  }
+
+  .illustration_info{
+    margin-left: 5rem;
+  }
+
+}
+
+@media (min-width: 1020px) {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8rem;
+  }
+
+  .layout {
+    display: block;
+    text-align: center;
+  }
+
+  .resourceStyle {
+    padding: 0 1.75rem;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .backgroundImage {
+    background-image: url("../../public/assets/shared/desktop/bg-pattern-leaf.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 594px;
+    position: absolute;
+    background-size: cover;
+    width: 964px;
+    margin-top: 7.9rem;
+    left: 24rem;
+    transform: rotate(180deg);
+  }
+
+  .passionate{
+    left: 4rem;
+  }
+
+  .friendly{
+    left: 4rem;
+  }
+
+  .resourceful{
+    left: 7rem;
+  }
+}
