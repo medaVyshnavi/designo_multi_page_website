@@ -10,7 +10,7 @@ const Card = ({ data, title, description }) => {
       </div>
       <div className={classes.Img_gallery}>
         {data.map((item) => (
-          <div className={classes.sub_card}>
+          <div key={item.title} className={classes.sub_card}>
             <img className={classes.sub_card_img} src={item.src} alt={item.alt} width="327px" height="320px" />
             <div className={classes.sub_card_info}>
               <h2>{item.title}</h2>
