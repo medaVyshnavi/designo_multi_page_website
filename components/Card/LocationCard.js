@@ -12,7 +12,7 @@ const LocationCard = ({ data }) => {
     <div className={classes.miniScreen}>
       <div>
         {data.map((item) => (
-          <div className={classes.location_sub_card}>
+          <div key={item.country_Name} className={classes.location_sub_card}>
             {/* <img
               className={classes.location_sub_card_img}
               src={item.src}
